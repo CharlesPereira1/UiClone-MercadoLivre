@@ -44,7 +44,7 @@ const Product: React.FC = () => {
   );
 };
 
-const WarrantySection = () => {
+const WarrantySection = () => (
   <Section>
     <h4>Garantia</h4>
 
@@ -60,10 +60,10 @@ const WarrantySection = () => {
         <p className="description">Garantia para sua vida eterna</p>
       </span>
     </div>
-  </Section>;
-};
+  </Section>
+);
 
-const info = () => {
+const info = () => (
   <Description>
     <h2>Descrição</h2>
 
@@ -94,7 +94,7 @@ const info = () => {
       Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
       amet..", comes from a line in section 1.10.32.
     </p>
-  </Description>;
-};
+  </Description>
+);
 
 export default Product;
