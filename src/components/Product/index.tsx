@@ -8,8 +8,6 @@ import {
   Painel,
   Section,
   Description,
-  Info,
-  WarrantySection,
   Column,
   Galery,
 } from "./styles";
@@ -63,7 +61,7 @@ const WarrantySection = () => (
   </Section>
 );
 
-const info = () => (
+const Info = () => (
   <Description>
     <h2>Descrição</h2>
 
