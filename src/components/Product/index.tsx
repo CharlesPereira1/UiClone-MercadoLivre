@@ -6,6 +6,8 @@ import {
   Container,
   Row,
   Painel,
+  Section,
+  Description,
   Info,
   WarrantySection,
   Column,
@@ -42,8 +44,27 @@ const Product: React.FC = () => {
   );
 };
 
+const WarrantySection = () => {
+  <Section>
+    <h4>Garantia</h4>
+
+    <div>
+      <span>
+        <p className="title">Compra garantida com o Lorem Ipsum</p>
+        <p className="description">
+          Receba o produto que está esperando ou devolvemos o seu dinheiro
+        </p>
+      </span>
+      <span>
+        <p className="title">Garantia do vendedor</p>
+        <p className="description">Garantia para sua vida eterna</p>
+      </span>
+    </div>
+  </Section>;
+};
+
 const info = () => {
-  <Desacription>
+  <Description>
     <h2>Descrição</h2>
 
     <p>
@@ -73,7 +94,7 @@ const info = () => {
       Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
       amet..", comes from a line in section 1.10.32.
     </p>
-  </Desacription>;
+  </Description>;
 };
 
 export default Product;
