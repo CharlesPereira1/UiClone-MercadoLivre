@@ -9,7 +9,7 @@ export const Container = styled.div`
   padding: 48px 32px;
   display: flex;
   flex-direction: column;
-  border-top: 1px solid var(--color-boder);
+  /* border-top: 1px solid var(--color-border); */
 `;
 
 export const Title = styled.div`
@@ -121,7 +121,8 @@ export const ReputationRow = styled.div`
         top: 50%;
         transform: translateY(-50%);
         height: 36px;
-        border-left: 1px solid var(--color-boder);
+        border-left: 1px solid red;
+        border-left: 1px solid var(--color-border);
       }
     }
   }
@@ -135,4 +136,10 @@ export const ClockIcon = styled(HiOutlineClock)`
   ${iconCSS}
 `;
 
-export const More = styled.a``;
+export const More = styled.a`
+  margin-top: 24px;
+  color: var(--color-blue);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+`;
