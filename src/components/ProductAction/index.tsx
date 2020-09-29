@@ -1,6 +1,22 @@
 import React from "react";
 
-import { Container, Codition } from "./styles";
+import {
+  Container,
+  Codition,
+  Row,
+  HeartIcon,
+  DispatchTag,
+  PriceCard,
+  PriceRow,
+  InstallementsInfo,
+  StockStatus,
+  MethodCard,
+  CheckIcon,
+  Actions,
+  Button,
+  Benefits,
+  ShieldIcon,
+} from "./styles";
 
 const ProductAction: React.FC = () => {
   return (
@@ -37,7 +53,7 @@ const ProductAction: React.FC = () => {
       </MethodCard>
 
       <Actions>
-        <Button solid>Comprar agora</Button>
+        <Button>Comprar agora</Button>
         <Button>Adicionar ao carrinho</Button>
       </Actions>
 
