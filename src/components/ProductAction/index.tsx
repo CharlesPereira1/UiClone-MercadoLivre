@@ -47,12 +47,14 @@ const ProductAction: React.FC = () => {
           <div>
             <span className="title">Frete grátis</span>
             <span className="details">Benefício Lorem Ipsum</span>
-            <a href="#">Ver mais oções</a>
+            <a href="#" className="more">
+              Ver mais oções
+            </a>
           </div>
         </MethodCard>
 
         <Actions>
-          <Button>Comprar agora</Button>
+          <Button solid>Comprar agora</Button>
           <Button>Adicionar ao carrinho</Button>
         </Actions>
 
