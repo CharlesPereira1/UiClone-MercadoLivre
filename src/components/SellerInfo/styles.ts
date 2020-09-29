@@ -9,7 +9,7 @@ export const Container = styled.div`
   padding: 48px 32px;
   display: flex;
   flex-direction: column;
-  /* border-top: 1px solid var(--color-border); */
+  border-top: 1px solid var(--color-border);
 `;
 
 export const Title = styled.div`
