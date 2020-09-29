@@ -5,9 +5,17 @@ import {
   HiOutlineShieldCheck,
 } from "react-icons/hi";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+`;
 
-export const Codition = styled.div``;
+export const Codition = styled.div`
+  font-size: 14px;
+  color: var(--color-gray);
+  margin-bottom: 16px;
+`;
 
 export const Row = styled.div``;
 
@@ -42,7 +50,7 @@ export const Actions = styled.div``;
 
 type ButtonProps = { solid?: boolean };
 
-export const Button = styled.div``;
+export const Button = styled.button<ButtonProps>``;
 
 export const Benefits = styled.div``;
 

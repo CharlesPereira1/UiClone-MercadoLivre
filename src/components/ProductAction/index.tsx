@@ -21,51 +21,51 @@ import {
 const ProductAction: React.FC = () => {
   return (
     <Container>
-      <Codition>Novo</Codition>
+      <Codition>
+        <Row>
+          <h1>Camiseta Branca de Marca Desconhecida</h1>
+          <HeartIcon />
+        </Row>
 
-      <Row>
-        <h1>Camiseta Branca de Marca Desconhecida</h1>
-        <HeartIcon />
-      </Row>
+        <DispatchTag>Enviando normalmente</DispatchTag>
 
-      <DispatchTag>Enviando normalmente</DispatchTag>
+        <PriceCard>
+          <PriceRow>
+            <span className="symbol">R$</span>
+            <span className="fraction">325</span>
+            <span className="cent">99</span>
+          </PriceRow>
 
-      <PriceCard>
-        <PriceRow>
-          <span className="symbol">R$</span>
-          <span className="fraction">325</span>
-          <span className="cent">99</span>
-        </PriceRow>
+          <InstallementsInfo>em 3x de R$ 115,69</InstallementsInfo>
+        </PriceCard>
 
-        <InstallementsInfo>em 3x de R$ 115,69</InstallementsInfo>
-      </PriceCard>
+        <StockStatus>Estoque disponivel</StockStatus>
 
-      <StockStatus>Estoque disponivel</StockStatus>
+        <MethodCard>
+          <CheckIcon />
 
-      <MethodCard>
-        <CheckIcon />
+          <div>
+            <span className="title">Frete grátis</span>
+            <span className="details">Benefício Lorem Ipsum</span>
+            <a href="#">Ver mais oções</a>
+          </div>
+        </MethodCard>
 
-        <div>
-          <span className="title">Frete grátis</span>
-          <span className="details">Benefício Lorem Ipsum</span>
-          <a href="#">Ver mais oções</a>
-        </div>
-      </MethodCard>
+        <Actions>
+          <Button>Comprar agora</Button>
+          <Button>Adicionar ao carrinho</Button>
+        </Actions>
 
-      <Actions>
-        <Button>Comprar agora</Button>
-        <Button>Adicionar ao carrinho</Button>
-      </Actions>
-
-      <Benefits>
-        <li>
-          <ShieldIcon />
-          <p>
-            Compra garantida, receba o produto que está esperando ou devolvemos
-            o dinheiro.
-          </p>
-        </li>
-      </Benefits>
+        <Benefits>
+          <li>
+            <ShieldIcon />
+            <p>
+              Compra garantida, receba o produto que está esperando ou
+              devolvemos o dinheiro.
+            </p>
+          </li>
+        </Benefits>
+      </Codition>
     </Container>
   );
 };
