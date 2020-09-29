@@ -23,6 +23,33 @@ const ProductAction: React.FC = () => {
 
         <InstallementsInfo>em 3x de R$ 115,69</InstallementsInfo>
       </PriceCard>
+
+      <StockStatus>Estoque disponivel</StockStatus>
+
+      <MethodCard>
+        <CheckIcon />
+
+        <div>
+          <span className="title">Frete grátis</span>
+          <span className="details">Benefício Lorem Ipsum</span>
+          <a href="#">Ver mais oções</a>
+        </div>
+      </MethodCard>
+
+      <Actions>
+        <Button solid>Comprar agora</Button>
+        <Button>Adicionar ao carrinho</Button>
+      </Actions>
+
+      <Benefits>
+        <li>
+          <ShieldIcon />
+          <p>
+            Compra garantida, receba o produto que está esperando ou devolvemos
+            o dinheiro.
+          </p>
+        </li>
+      </Benefits>
     </Container>
   );
 };
