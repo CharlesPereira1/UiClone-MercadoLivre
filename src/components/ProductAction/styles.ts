@@ -131,9 +131,30 @@ export const Button = styled.button<ButtonProps>`
   border-radius: 4px;
   padding: 12px 10px;
   margin-top: 10px;
+  cursor: pointer;
+
+  color: ${(props) =>
+    props.solid ? "var(--color-white)" : "var(--color-blue)"};
+  background: ${(props) => (props.solid ? "var(--color-blue)" : "transparent")};
+  border: ${(props) => (props.solid ? "none" : "1px solid var(--color-blue)")};
 `;
 
-export const Benefits = styled.div``;
+export const Benefits = styled.ul`
+  margin-top: 16px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+
+  > li {
+    display: flex;
+
+    p {
+      margin-left: 10px;
+      color: var(--color-gray);
+      font-size: 14px;
+    }
+  }
+`;
 
 export const ShieldIcon = styled(HiOutlineShieldCheck)`
   width: 20px;
